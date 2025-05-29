@@ -1,3 +1,4 @@
+//marks//
 #include <iostream>
 using namespace std;
 
@@ -22,11 +23,12 @@ int main() {
     cout << "Enter subject marks 3 : ";
    cin >> mark3;
     cout << "*****************************************************************************************************************" << endl;
-     // Calculate total and average
+    
     total = mark1 + mark2 + mark3;
     average = total / 3.0;
 
-    // Determine grade
+    
+
     if (average >= 90) {
         grade = 'A';
     } else if (average >= 70) {
